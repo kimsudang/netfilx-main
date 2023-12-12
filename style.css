@@ -1,31 +1,82 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
 
-
-
-header {
+/* header part css */
+#top {
     width: 100%;
     height: 15%;
 }
 
-.btn-profile {
-    width: 100px;
-    height: auto;
-}
-
-.profile {
-    width: 100px;
-    height: 100px;
-}
-
-.main {
-    width: auto;
-    height: 80%;
-}
-
-section {
+nav {
+    position: fixed;
+    top: 0px;
     display: inline-flex;
 }
 
+#main-img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#btn-profile {
+    width: 100px;
+}
+
+#profile {
+    width: 100px;
+}
+
+#main-photo {
+    width: 100%;
+    height: 100%;
+}
+
+#main-text {
+    position: absolute; 
+    
+}
+
+
+/* main part css */
+#main {
+    width: 100%;
+    height: 80%;
+}
+
+.movie-list {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.movie-area {
+    width: 100%;
+}
+
+
+.movie-type {
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+
+.movie-poster {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .movie-poster img {
+    padding-right: 30px;
+} */
+
+/* footer part css */
 footer {
     width: auto;
     height: 5%;
+    padding-top: 50px;
 }
