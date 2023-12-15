@@ -1,60 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color: #181818;
+    color: white;
 }
 
 /* header part css */
-#top {
+.top {
     width: 100%;
     height: 15%;
 }
 
-nav {
-    position: fixed;
-    top: 0px;
-    display: inline-flex;
-}
-
-#main-img {
+.main-img {
     width: 100%;
     height: 500px;
-    position: relative;
 }
 
-#btn-profile {
-    width: 100px;
-}
-
-#profile {
-    width: 100px;
-}
-
-#main-photo {
+.main-photo {
     width: 100%;
     height: 100%;
 }
 
-#main-text {
-    position: absolute; 
-    
+.main-text {
+    color: white;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.comment {
+    margin: 0px;
+    padding-top: 15px;
+}
+
+/* nav part css */
+
+.nav {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
+.nav-title a {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-profile {
+    margin-right: 40px;
+}
+
+
+.btn-profile button {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border: 0;
+    border-color: none;
+    background-color: transparent;
+}
+
+.btn-profile button:hover {
+    background-color: #181818;
+}
+
+.profile {
+    width: 80%;
+}
+
+
+
 /* main part css */
-#main {
+.main {
     width: 100%;
     height: 80%;
 }
 
 .movie-list {
     width: 100%;
+    height: 23%;
     padding-top: 30px;
 }
 
 .movie-area {
     width: 100%;
+    height: 23%;
 }
-
 
 .movie-type {
     color: white;
@@ -66,17 +114,34 @@ nav {
 
 .movie-poster {
     width: 100%;
+    height: 23%;
     display: flex;
     justify-content: space-evenly;
 }
 
-/* .movie-poster img {
-    padding-right: 30px;
-} */
+.movie-poster img {
+    width: 10%;
+    height: 23%;
+    max-height: 250px;
+}
+
+.movie-poster img:hover {
+    transform: scale(1.2);
+}
+
 
 /* footer part css */
-footer {
+.footer {
     width: auto;
     height: 5%;
     padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.footer p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
 }
