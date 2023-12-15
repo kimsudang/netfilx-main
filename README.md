@@ -13,4 +13,6 @@
 ![sc2](https://github.com/kimsudang/netfilx-main/assets/143993211/d1e69a01-3df1-42d3-99d6-13a0a4054055)
 
 ### 과제 녹화
-<img src="https://github.com/kimsudang/netfilx-main/assets/143993211/aa56cdf8-6fcc-4592-ade9-24da6b553e8f">
+<p align="center">
+    <img src="/img/netflix_pbl.gif">
+</p>
